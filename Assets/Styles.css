@@ -1,0 +1,197 @@
+/* Estilos básicos */
+body {
+    background-color: #EDF0FA;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #6b0909;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 15px 15px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    margin: 1rem;
+    border-radius: 0.2em;
+    padding: 1rem;
+}
+
+p{
+    font-weight: bold;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+/* Clases específicas */
+.carousels{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.carousel-item img {
+    opacity: 0.6; /* Opacidad de las imágenes de fondo */
+}
+
+.carousel-overlay h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.712); /* Fondo oscuro semitransparente */
+    z-index: 1; /* Asegura que el texto esté encima */
+}
+
+.carousel-inner {
+    z-index: 0; /* Hace que el carrusel quede detrás del texto */
+}
+
+
+.galeria {
+    padding: 20px;
+}
+
+.galeria .row {
+    margin-bottom: 15px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.galeria .btn {
+    width: 100%;
+}
+
+.col-lg-8 {
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+.col-sm-4, .col-sm {
+    background-color: #dee2e6;
+    padding: 20px;
+}
+
+.mb-4 {
+    background-color: #8C1111;
+    border-radius: 5px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1F1F1F;
+    margin: 20px 0;
+}
+
+.social-section {
+    background-color: #8C1111;
+    padding: 20px 0;
+    color: white;
+}
+
+.social-icons a, .redes {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0 25px;
+}
+
+.testimonials {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+}
+
+.testimonial {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    font-style: italic;
+    color: #555;
+    padding: 20px;
+    margin: 10px 0 20px 0;
+}
+
+.highlight-link {
+    color: #ffffff;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #5F1A2D;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 15px 15px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    font-weight: bold;
+}
+
+.highlight-link:hover {
+    background-color: #EDF0FA;
+    color: #000000;
+}
+
+.highlight-link:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+/* Estilos adicionales */
+.time-box {
+    border: 2px solid #8C1111;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 15px 15px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    position: relative;
+}
+
+.time {
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+}
+
+.label {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Efectos */
+#navbarSupportedContent .nav-item:hover {
+    background-color: #6b0909;
+    border-radius: 10px;
+}
+
+#seconds-box {
+    animation: fall 1s infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
