@@ -27,6 +27,3 @@ Este es un sitio web diseñado para mostrar las promociones y eventos especiales
 ## Instalación
 
 1. Clona el repositorio:
-
-   ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
