@@ -26,4 +26,8 @@ Este es un sitio web diseñado para mostrar las promociones y eventos especiales
 
 ## Instalación
 
-1. Clona el repositorio:
+Clona el repositorio
+
+## Página Web
+
+Puedes ver una de las aplicaciones en acción en la siguiente [página web](https://gerald-m14.github.io/Pagina_promociones_sinam/).
